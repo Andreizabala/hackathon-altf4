@@ -1,0 +1,84 @@
+
+#body{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 2%, rgba(148,187,233,1) 96%);
+}
+.flex-box{
+  display: flex;
+  flex-direction: row;
+}
+.flex-box > div {
+  position: relative;
+  background-color: transparent;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+.child-1-svg{
+  position: absolute;
+  left:150px;
+  top:150px;
+  width: 500px;
+  height: 300px;
+}
+.text-post{
+  position: absolute;
+  left: 270px;
+  top:80px;
+  font-size: 30px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: oblique;
+}
+
+.child-2 svg{
+  position:absolute;
+  top:65px;
+  left:245px;
+}
+.child-3{
+  position: absolute;
+  left:50%;
+}
+.child-3 input[type=submit]{
+  color: 2px solid#000000;
+  background-color: transparent;
+  border:2px solid black;
+  padding: 16px 32px;
+}
+.child-3 input[type=submit]:hover{
+  background: rgb(238,174,202);
+  background: linear-gradient(90deg, rgba(238,174,202,1) 2%, rgba(148,187,233,1) 96%);
+}
+#child-3-1{
+  position: absolute;
+  top:230px;
+  width: 300px;
+  left:-25px;
+}
+.child-3-text-or{
+  position: absolute;
+  top:240px;
+  left:110px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #db3236;
+  background-image: linear-gradient(#db3236,#4885ed);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-text-fill-color: transparent;
+  
+}
+#child-3-2{
+  position: absolute;
+  top:350px;
+  width: 300px;
+  left:-25px;
+}
+.child-3 svg{
+  position:absolute;
+  top:365px;
+  left:1px;
+}
